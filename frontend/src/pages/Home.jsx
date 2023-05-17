@@ -1,9 +1,26 @@
+import { useEffect, useState } from "react"
+import API_KEY from "../API_KEY"
 
 export default function Home() {
+    const [background, setBackground] = useState('')
 
+    useEffect(() => {
+        async function getPhoto() {
+            const response = await fetch(`https://api.unsplash.com/photos/random/?count=1&query=nature+landscape&orienation=landscape&client_id=${API_KEY}`)
+            const data = await response.json();
+            console.log(data[0].urls)
+            setBackground(data[0].urls.raw)
+        }
+        getPhoto()
+    }, [])
+
+    const backgroundStyle = {
+        backgroundImage: `url(${background})`
+    }
+    
     return (
         <div>
-            <div className='background'>
+            <div className='background' style={backgroundStyle}>
                 <div className='center'>
                     <div style={{display:'flex',flexDirection:'column', alignItems:'center'}}>
                         <h1>Jesse Stahl</h1>

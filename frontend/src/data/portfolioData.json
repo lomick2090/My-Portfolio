@@ -1,0 +1,26 @@
+[
+        {
+            "title":"Alignment Game",
+            "picture":"../images/alignment-game.png",
+            "description":"The perfect way to find out how your friends match up on the classic Dungeons & Dragons alignment scale",
+            "url":"https://incomparable-flan-bb6239.netlify.app/"
+        },
+        {
+            "title":"Quizzical",
+            "picture":"../images/quizzical.png",
+            "description":"Take a quiz from a random set of 5 questions from the quiz API",
+            "url":"https://64654142e92ef21e0d41e815--precious-kheer-9c973d.netlify.app/"
+        },
+        {
+            "title":"Tenzies",
+            "picture":"../images/tenzies.png",
+            "description":"Roll the dice and try to get 10 of a kind, freezing dice between rounds",
+            "url":"https://6465408a7cd3f819ed92627b--precious-kheer-9c973d.netlify.app/"
+        },
+        {
+            "title":"BattleShip Game",
+            "picture":"../images/battleship.png",
+            "description":"Play the classic battleship game vs a computer opponent",
+            "url":"https://lomick2090.github.io/odin-battleship/"
+        }
+]

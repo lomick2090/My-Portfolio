@@ -8,6 +8,7 @@ body {
 
 .menu {
     position: absolute;
+    top:0;
     display: flex;
     justify-content: space-around;
     width: 100vw;
@@ -24,6 +25,10 @@ body {
     text-decoration: none;
     font-size: 24px;
     color: black;
+    text-shadow: 1px 1px 0 rgb(255, 255, 255),
+        -1px 1px 0 rgb(255, 255, 255),
+        -1px -1px 0 rgb(255, 255, 255),
+        1px -1px 0 rgb(255, 255, 255);
     
 }
 
@@ -32,7 +37,6 @@ body {
     height: 80vh;
     position:absolute;
     top:0px;
-    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
     background-size:cover;
     -webkit-animation: slidein 100s;
     animation: slidein 100s;
@@ -69,7 +73,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(61, 61, 204, 0.3);
+  background: rgba(34, 34, 116, 0.397);
   border-radius: 3px;
   height: 80vh
 }
@@ -79,6 +83,17 @@ body {
   color:white;
   font-family: 'Source Code Pro', monospace;
   text-transform:uppercase;
+  text-shadow: -1px -1px 1px #000,
+        1px 1px 2px #000,
+        1px -1px 1px #000,
+        -1px 1px 2px #000;
+}
+
+.center p {
+    text-shadow: 1px 1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255);
 }
 
 .bio {
@@ -93,4 +108,38 @@ body {
 
 .bio > hr {
     width: 80vw;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 80px;
+}
+
+.portfolio hr {
+    width:100vw;
+    color: black;
+    margin-bottom:30px;
+}
+
+.projectholder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    gap:30px;
+}
+.project {
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.project > img {
+    width: 40vw;
 }
