@@ -1,6 +1,8 @@
 body {
     margin: 0;
-    padding: 0;  
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Source Code Pro', monospace;
 }
 
 
@@ -77,4 +79,18 @@ body {
   color:white;
   font-family: 'Source Code Pro', monospace;
   text-transform:uppercase;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:  80vw;
+    position: absolute;
+    top:81vh;
+    left:10vw;
+}
+
+.bio > hr {
+    width: 80vw;
 }

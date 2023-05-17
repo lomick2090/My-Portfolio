@@ -1,17 +1,20 @@
 import { Link, Outlet } from "react-router-dom"
+import { HashLink } from "react-router-hash-link"
 export default function Header() {
 
     return (
         <div>
             <ul className='menu'>
                 <li>
-                    <Link>HOME</Link>
+                    <Link to='/'>HOME</Link>
                 </li>
                 <li>
                     <Link>PORTFOLIO</Link>
                 </li>
                 <li>
-                    <Link>BIO</Link>
+
+                    <HashLink to='/#bio'>BIO</HashLink>
+
                 </li>
                 <li>
                     <Link>CONTACT</Link>
