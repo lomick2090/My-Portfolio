@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    margin-bottom: 35px;
     padding: 0;
     overflow-x: hidden;
     font-family: 'Source Code Pro', monospace;
@@ -125,10 +126,18 @@ body {
 
 .projectholder {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 25vw 25vw;
     grid-template-rows: 2fr 2fr;
     gap:30px;
+    align-items: center;
 }
+
+.projectholder > a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
 .project {
     border: 1px solid black;
     border-radius: 20px;
@@ -137,9 +146,39 @@ body {
     align-items: center;
     justify-content: center;
     padding: 30px;
-
+    box-shadow: 0px 35px 40px rgba(0, 0, 0, 0.397);
 }
 
 .project > img {
+    width: 20vw;
+}
+
+.others {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.others > h1 {
+    margin-bottom: 30px;
+}
+
+.otherproject > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.otherproject hr {
     width: 40vw;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
 }

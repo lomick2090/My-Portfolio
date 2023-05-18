@@ -1,0 +1,37 @@
+[
+    {
+        "title":"Pumkin Farm Frontend",
+        "url":"https://646658a349a4e82bb9b16304--moonlit-jelly-2a7c66.netlify.app/",
+        "description":"Forked a farm contract and made a workable frontend on BNB testnet"
+    },
+    {
+        "title":"NameCoin Frontend",
+        "url":"https://646657f8f6a9d328a8c9f131--inspiring-crepe-f1a8fa.netlify.app/",
+        "description":"Quick front-end to allow users to add a name to 'name coin' on BNB mainnet"
+    },
+    {
+        "title":"Pic Som",
+        "url":"https://646659aaa2972a2b1cef4fac--ephemeral-rabanadas-7b4cc5.netlify.app/",
+        "description":"Practice with mimicing a photo shopping experience"
+    },
+    {
+        "title":"Speed-Typing",
+        "url":"https://64665acae2c5c12824e507b3--genuine-elf-6b7e27.netlify.app/",
+        "description":"Speed-typing app that measures the words you type in 10 seconds"
+    },
+    {
+        "title":"5-day Weather forcast",
+        "url":"https://lomick2090.github.io/odin-weather-app/",
+        "description":"Easily search up a city and find weather information"
+    },
+    {
+        "title":"BYO Library",
+        "url":"https://lomick2090.github.io/odin-library/",
+        "description":"Add books to a temporary database"
+    },
+    {
+        "title":"To-do list",
+        "url":"https://lomick2090.github.io/odin-todo-list/",
+        "description":"Add to-do items to a database stored in local storage"
+    }
+]

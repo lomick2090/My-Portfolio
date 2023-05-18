@@ -9,15 +9,16 @@ export default function Header() {
                     <Link to='/'>HOME</Link>
                 </li>
                 <li>
-                    <Link to='/portfolio'>PORTFOLIO</Link>
-                </li>
-                <li>
 
                     <HashLink to='/#bio'>BIO</HashLink>
 
                 </li>
                 <li>
-                    <Link>CONTACT</Link>
+                    <Link to='/portfolio'>PORTFOLIO</Link>
+                </li>
+
+                <li>
+                    <Link to='/contact'>CONTACT</Link>
                 </li>
             </ul>
 

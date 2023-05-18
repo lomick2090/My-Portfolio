@@ -1,5 +1,6 @@
 import portfolioData from '../data/portfolioData.json'
 import Project from '../components/Project'
+import { Link, Routes, Route } from 'react-router-dom'
 
 export default function Portfolio() {
 
@@ -22,6 +23,8 @@ export default function Portfolio() {
             <div className="projectholder">
                 {projectElements}
             </div>
+            <Link to='others'>Other Projects</Link>
+
         </div>
     )
 }

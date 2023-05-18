@@ -8,7 +8,6 @@ export default function Home() {
         async function getPhoto() {
             const response = await fetch(`https://api.unsplash.com/photos/random/?count=1&query=nature+landscape&orienation=landscape&client_id=${API_KEY}`)
             const data = await response.json();
-            console.log(data[0].urls)
             setBackground(data[0].urls.raw)
         }
         getPhoto()
