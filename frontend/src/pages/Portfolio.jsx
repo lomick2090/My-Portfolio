@@ -1,6 +1,6 @@
 import portfolioData from '../data/portfolioData.json'
 import Project from '../components/Project'
-import { Link, Routes, Route } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default function Portfolio() {
 

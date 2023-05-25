@@ -1,5 +1,10 @@
 [
     {
+        "title":"BattleShip Game",
+        "description":"Play the classic battleship game vs a computer opponent",
+        "url":"https://lomick2090.github.io/odin-battleship/"
+    },
+    {
         "title":"Pumkin Farm Frontend",
         "url":"https://646658a349a4e82bb9b16304--moonlit-jelly-2a7c66.netlify.app/",
         "description":"Forked a farm contract and made a workable frontend on BNB testnet"
