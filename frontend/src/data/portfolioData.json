@@ -1,26 +1,27 @@
 [
-        {
-            "title":"Alignment Game",
-            "picture":"../images/alignment-game.png",
-            "description":"The perfect way to find out how your friends match up on the classic Dungeons & Dragons alignment scale",
-            "url":"https://incomparable-flan-bb6239.netlify.app/"
-        },
-        {
-            "title":"Quizzical",
-            "picture":"../images/quizzical.png",
-            "description":"Take a quiz from a random set of 5 questions from the quiz API",
-            "url":"https://64654142e92ef21e0d41e815--precious-kheer-9c973d.netlify.app/"
-        },
-        {
-            "title":"Tenzies",
-            "picture":"../images/tenzies.png",
-            "description":"Roll the dice and try to get 10 of a kind, freezing dice between rounds",
-            "url":"https://6465408a7cd3f819ed92627b--precious-kheer-9c973d.netlify.app/"
-        },
-        {
-            "title":"Simba's Mantra Website",
-            "picture":"../images/simbasmantras.png",
-            "description":"UI for simba's personal mantras with voting and leaderboard enabled",
-            "url":"https://app.netlify.com/sites/fabulous-mousse-5cad69/deploys/646fc0ecfdd00e1f4143aff4"
-        }
+    {
+        "title":"Simba's Mantra Website",
+        "picture":"../images/simbasmantras.png",
+        "description":"UI for simba's personal mantras with voting and leaderboard enabled using Firebase as a database",
+        "url":"https://fabulous-mousse-5cad69.netlify.app/"
+    },
+    {
+        "title":"Alignment Game",
+        "picture":"../images/alignment-game.png",
+        "description":"The perfect way to find out how your friends match up on the classic Dungeons & Dragons alignment scale, uses Firebase",
+        "url":"https://incomparable-flan-bb6239.netlify.app/"
+    },
+    {
+        "title":"Quizzical",
+        "picture":"../images/quizzical.png",
+        "description":"Take a quiz from a random set of 5 questions from the quiz API",
+        "url":"https://64654142e92ef21e0d41e815--precious-kheer-9c973d.netlify.app/"
+    },
+    {
+        "title":"Tenzies",
+        "picture":"../images/tenzies.png",
+        "description":"Roll the dice and try to get 10 of a kind, freezing dice between rounds",
+        "url":"https://6465408a7cd3f819ed92627b--precious-kheer-9c973d.netlify.app/"
+    }
+
 ]
